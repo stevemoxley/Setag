@@ -1,0 +1,125 @@
+@charset "utf-8";
+#editorpanel {
+	height: 300px;
+	width: 750px;
+	margin-left: 100px;
+	border: thin solid #333;
+}
+
+#properties{
+	height:300px;
+	width:300px;
+}
+
+.boxes {
+	border: 2px solid #333;
+	border-radius:1em;
+	-moz-border-radius:1em;
+	margin-right: 25px;
+}
+
+#listing{
+	height:auto;
+	width:300px;
+}
+
+
+#label1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #900;
+	line-height: 36px;
+	font-variant: normal;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 3px;
+	text-align: center;
+}
+#linkpage {
+	color: #000;
+}
+
+#linkpage a:hover{
+	color:#3C0;
+}
+
+#linkpage2 {
+	font-size:12px;
+	color: #009;
+}
+
+#linkpage2 a:hover{
+	font-size:12px;
+	color:#009;
+	text-decoration:underline;
+}
+
+#propertypanel {
+	width : 735px;
+	height : 235px;
+	border-top-width: thin;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-top-color: #666;
+}
+
+#pagefont{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#h3font{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: top;
+	text-align: left;
+	
+}
+
+#font4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	text-align: left;
+	vertical-align: top;
+	
+}
+#font5{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCC;
+	font-size: 9px;
+	font-weight: bolder;
+	text-align: right;
+	
+}
+
+#viewbutton{
+	width:150px;
+	height:40px;
+	background-image:url(../images/viewbutton.png)
+}
+
+.searchbar {
+	width:900px;
+	
+}
+
+#grayframe{
+	color:#333;
+	border: 1px solid #333;
+}
+#pagefont2 {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+tenantinfolink {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000;
+	background-color: #000;
+}
