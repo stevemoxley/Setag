@@ -1,9 +1,9 @@
 <?
 	function connect(){
 	$myServer = "localhost";
-	$myUser = "setagnet_admin";
-	$myPass = "TKE!4lif";
-	$myDB = "setagnet_main";
+	$myUser = "";
+	$myPass = "";
+	$myDB = "";
 	//connection to the database
 	$dbhandle = mysql_connect($myServer, $myUser, $myPass) or die("Couldn't connect to SQL Server on $myServer"); 
 	$selected = mysql_select_db($myDB, $dbhandle)
